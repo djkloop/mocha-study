@@ -1,0 +1,159 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-06-03T04:48:01.030Z",
+    "end": "2018-06-03T04:48:01.038Z",
+    "duration": 8,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "ba434c60-0cb1-4a99-b780-b7c461ee512b",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "545fb129-37f9-4ee9-a204-c966de875b73",
+        "title": "calc - test",
+        "fullFile": "/Users/aa/2018_study/mocha-study/test/calc.test.js",
+        "file": "/test/calc.test.js",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook",
+            "fullTitle": "calc - test \"before all\" hook",
+            "timedOut": false,
+            "duration": 1,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "console.log('before')",
+            "err": {},
+            "isRoot": false,
+            "uuid": "1c999bb7-aeca-4735-b343-a2ada3b158b1",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook",
+            "fullTitle": "calc - test \"before each\" hook",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "console.log('beforeEach')",
+            "err": {},
+            "isRoot": false,
+            "uuid": "d0d8b54d-fa96-4cc3-a765-92e15f157caa",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook",
+            "fullTitle": "calc - test \"after all\" hook",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "console.log('after')",
+            "err": {},
+            "isRoot": false,
+            "uuid": "0cc9308c-4730-4161-8d4e-01eacf79060b",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook",
+            "fullTitle": "calc - test \"after each\" hook",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "console.log('afterEach')",
+            "err": {},
+            "isRoot": false,
+            "uuid": "52a478dd-b1c1-411b-bef3-073d3f5c28a5",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "calc - add - module - 0 + 0",
+            "fullTitle": "calc - test calc - add - module - 0 + 0",
+            "timedOut": false,
+            "duration": 1,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect(add(0 , 0)).to.be.equal(0)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "fd37c4c2-6743-40b5-b0b9-8c92c09df0b9",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "calc - add - module - 0 + 1",
+            "fullTitle": "calc - test calc - add - module - 0 + 1",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect(add(0 , 1)).to.be.equal(1)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "837d2fc7-8ffe-473c-b6e6-9c4e3cfe84f8",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "fd37c4c2-6743-40b5-b0b9-8c92c09df0b9",
+          "837d2fc7-8ffe-473c-b6e6-9c4e3cfe84f8"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 1,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 5000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 5000
+  },
+  "copyrightYear": 2018
+}
